@@ -1,0 +1,41 @@
+RUBY
+1. Number = Int
+	puts 1+2			-->	3
+2. Letters = String
+	puts 'ikhsan ' + 'rahmad'	-->	Ikhsan rahmad
+3. Variable
+	var1 = 'ikhsan'
+	puts = 'hallo ' + var1		-->	hallo ikhsan
+
+	var1 = 2
+	var2 = '3'
+	puts var1 + var2.to_i		-->	7
+4. Methods 
+*Get 
+#get merupakan inputan yg disediakan oleh program diakhiri dengan enter.
+*Get.chomp
+#get.chomp merupakan inputan yang tidak diakhiri dengan enter (LEBIH RAPI)
+
+	puts 'Nama depan'		
+	depan = get.chomp		--> ikhsan
+	puts 'Nama depan ' + depan	--> Nama depan ikhsan
+
+5. More Methods
+*setiap kata kerja(verb) selalu membutuhkan kata benda(noun) untuk menjadi Verb yg sebenarnya.
+ --> methods membutuhkan object
+*clock.ticks-> jam selalu berdetik, disini detik(methods) tidak tahu apa yg terjadi sedangkan jam(Object) mengetahui segalanya
+---> 101.to_s	: 101(object) to_s(methods)
+
+String	---		
+Intergers |--> Object(benda)	
+Float	---
+
+Puts---
+Gets  |--> Methods
+chomp--
+
+6. Keistimewaan String
+-1- String Reverse
+->membalikan string 
+-2- string length
+->menampilkan banyak carakter
